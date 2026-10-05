@@ -1,6 +1,6 @@
 # ラフカ語 同語根語生成器
 
-[ブラウザーで使う](https://jinubbbo5454-rgb.github.io/lafca-word-generator/)
+[ブラウザーで使う](https://velvet-orbit-731.github.io/lafca-word-generator/)
 
 ラフカ語・アルディア語の入力から、登録された同語根語・祖語形・語源注記を表示します。例：jure / juraj → *juraj、cori / kōri → *kōrī。入力言語を指定することもできます。複数の祖語形と再建仮説の注記を保持し、祖語形が未登録の語は音対応規則から再建候補を生成します。例えばアルディア語 rēdog には *rēdog / *reɣdog などの候補を示します。ラフカ語の未知語にも対応し、候補の規則・順方向照合を表示、全候補をJSONに保存できます。候補は未採用の仮説で、登録祖語形は保持します。
 
@@ -12,7 +12,7 @@
 
 ## 語彙と更新
 
-語彙の唯一の正本は [ウェブラフカ語辞書](https://jinubbbo5454-rgb.github.io/lafca-dictionary/) の [dictionary.json](https://github.com/jinubbbo5454-rgb/lafca-dictionary/blob/main/dictionary.json) です。この生成器にはビルド時点の照合データを埋め込んでいます。辞書の変更は再ビルド・再公開後に反映されます。
+語彙の唯一の正本は [ウェブラフカ語辞書](https://velvet-orbit-731.github.io/lafca-dictionary/) の [dictionary.json](https://github.com/velvet-orbit-731/lafca-dictionary/blob/main/dictionary.json) です。この生成器にはビルド時点の照合データを埋め込んでいます。辞書の変更は再ビルド・再公開後に反映されます。
 
 このリポジトリは配布用です。元の作業環境の `語彙生成器/build.py` で再生成し、検査後に `語彙生成器/export_pages.py` で配布物を更新します。配布HTML内の語彙を独立した辞書として編集しないでください。
 
